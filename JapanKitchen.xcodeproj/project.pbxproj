@@ -11,6 +11,7 @@
 		4D3AE83A27B5717400AFC10D /* SideBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AE83927B5717400AFC10D /* SideBarVC.xib */; };
 		4D3AE84127B57FE700AFC10D /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AE83F27B57FE700AFC10D /* FavouriteVC.swift */; };
 		4D3AE84227B57FE700AFC10D /* FavouriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AE84027B57FE700AFC10D /* FavouriteVC.xib */; };
+		4D3AE84527B5935F00AFC10D /* FoodIteamsDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AE84427B5935F00AFC10D /* FoodIteamsDM.swift */; };
 		4D5DC07427B2EF20000A14E2 /* TopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DC07227B2EF20000A14E2 /* TopTVC.swift */; };
 		4D5DC07527B2EF20000A14E2 /* TopTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DC07327B2EF20000A14E2 /* TopTVC.xib */; };
 		4D5DC07827B2EF7E000A14E2 /* IngredientsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DC07627B2EF7E000A14E2 /* IngredientsTVC.swift */; };
@@ -39,6 +40,7 @@
 		4D3AE83927B5717400AFC10D /* SideBarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarVC.xib; sourceTree = "<group>"; };
 		4D3AE83F27B57FE700AFC10D /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
 		4D3AE84027B57FE700AFC10D /* FavouriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteVC.xib; sourceTree = "<group>"; };
+		4D3AE84427B5935F00AFC10D /* FoodIteamsDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIteamsDM.swift; sourceTree = "<group>"; };
 		4D5DC07227B2EF20000A14E2 /* TopTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTVC.swift; sourceTree = "<group>"; };
 		4D5DC07327B2EF20000A14E2 /* TopTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTVC.xib; sourceTree = "<group>"; };
 		4D5DC07627B2EF7E000A14E2 /* IngredientsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		4DAEE20F27AD7D000071C905 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D3AE84427B5935F00AFC10D /* FoodIteamsDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3AE84527B5935F00AFC10D /* FoodIteamsDM.swift in Sources */,
 				4DAEE21C27AD95CD0071C905 /* Extension.swift in Sources */,
 				4D5DC07427B2EF20000A14E2 /* TopTVC.swift in Sources */,
 				4DAEE1F827AD7C0C0071C905 /* AppDelegate.swift in Sources */,
