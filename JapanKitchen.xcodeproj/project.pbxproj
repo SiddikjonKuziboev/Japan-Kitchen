@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3AE83827B5715500AFC10D /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AE83727B5715500AFC10D /* SideBarVC.swift */; };
+		4D3AE83A27B5717400AFC10D /* SideBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AE83927B5717400AFC10D /* SideBarVC.xib */; };
+		4D3AE84127B57FE700AFC10D /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AE83F27B57FE700AFC10D /* FavouriteVC.swift */; };
+		4D3AE84227B57FE700AFC10D /* FavouriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AE84027B57FE700AFC10D /* FavouriteVC.xib */; };
+		4D5DC07427B2EF20000A14E2 /* TopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DC07227B2EF20000A14E2 /* TopTVC.swift */; };
+		4D5DC07527B2EF20000A14E2 /* TopTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DC07327B2EF20000A14E2 /* TopTVC.xib */; };
+		4D5DC07827B2EF7E000A14E2 /* IngredientsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5DC07627B2EF7E000A14E2 /* IngredientsTVC.swift */; };
+		4D5DC07927B2EF7E000A14E2 /* IngredientsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DC07727B2EF7E000A14E2 /* IngredientsTVC.xib */; };
+		4D934AA427AED64700B32AC6 /* turk_cuisine.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D934AA327AED64700B32AC6 /* turk_cuisine.json */; };
+		4DAD51C927B16E5800D839DE /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD51C827B16E5800D839DE /* RealmData.swift */; };
+		4DAD51CB27B18EDC00D839DE /* FoodsDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD51CA27B18EDC00D839DE /* FoodsDM.swift */; };
+		4DAD51CE27B194BB00D839DE /* MoreInformtionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD51CC27B194BB00D839DE /* MoreInformtionVC.swift */; };
+		4DAD51CF27B194BB00D839DE /* MoreInformtionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD51CD27B194BB00D839DE /* MoreInformtionVC.xib */; };
 		4DAEE1F827AD7C0C0071C905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE1F727AD7C0C0071C905 /* AppDelegate.swift */; };
-		4DAEE1FA27AD7C0C0071C905 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE1F927AD7C0C0071C905 /* SceneDelegate.swift */; };
-		4DAEE1FC27AD7C0C0071C905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE1FB27AD7C0C0071C905 /* ViewController.swift */; };
-		4DAEE1FF27AD7C0C0071C905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE1FD27AD7C0C0071C905 /* Main.storyboard */; };
 		4DAEE20127AD7C0D0071C905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE20027AD7C0D0071C905 /* Assets.xcassets */; };
 		4DAEE20427AD7C0D0071C905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE20227AD7C0D0071C905 /* LaunchScreen.storyboard */; };
+		4DAEE20D27AD7CF00071C905 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE20B27AD7CF00071C905 /* MainVC.swift */; };
+		4DAEE20E27AD7CF00071C905 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE20C27AD7CF00071C905 /* MainVC.xib */; };
+		4DAEE21627AD7F060071C905 /* MainCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE21427AD7F060071C905 /* MainCVC.swift */; };
+		4DAEE21727AD7F060071C905 /* MainCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEE21527AD7F060071C905 /* MainCVC.xib */; };
+		4DAEE21A27AD94C00071C905 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE21927AD94C00071C905 /* AppColors.swift */; };
+		4DAEE21C27AD95CD0071C905 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEE21B27AD95CD0071C905 /* Extension.swift */; };
+		4DE722C827B4522A00121EBE /* StepTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE722C627B4522A00121EBE /* StepTVC.swift */; };
+		4DE722C927B4522A00121EBE /* StepTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE722C727B4522A00121EBE /* StepTVC.xib */; };
+		FDFD2B155B01CA8293AAED5A /* Pods_JapanKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90CF07D2BB897B86A357CB3 /* Pods_JapanKitchen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3AE83727B5715500AFC10D /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		4D3AE83927B5717400AFC10D /* SideBarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarVC.xib; sourceTree = "<group>"; };
+		4D3AE83F27B57FE700AFC10D /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		4D3AE84027B57FE700AFC10D /* FavouriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteVC.xib; sourceTree = "<group>"; };
+		4D5DC07227B2EF20000A14E2 /* TopTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTVC.swift; sourceTree = "<group>"; };
+		4D5DC07327B2EF20000A14E2 /* TopTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTVC.xib; sourceTree = "<group>"; };
+		4D5DC07627B2EF7E000A14E2 /* IngredientsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTVC.swift; sourceTree = "<group>"; };
+		4D5DC07727B2EF7E000A14E2 /* IngredientsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsTVC.xib; sourceTree = "<group>"; };
+		4D934AA327AED64700B32AC6 /* turk_cuisine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = turk_cuisine.json; sourceTree = "<group>"; };
+		4DAD51C827B16E5800D839DE /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
+		4DAD51CA27B18EDC00D839DE /* FoodsDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsDM.swift; sourceTree = "<group>"; };
+		4DAD51CC27B194BB00D839DE /* MoreInformtionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformtionVC.swift; sourceTree = "<group>"; };
+		4DAD51CD27B194BB00D839DE /* MoreInformtionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreInformtionVC.xib; sourceTree = "<group>"; };
 		4DAEE1F427AD7C0C0071C905 /* JapanKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEE1F727AD7C0C0071C905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DAEE1F927AD7C0C0071C905 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DAEE1FB27AD7C0C0071C905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DAEE1FE27AD7C0C0071C905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DAEE20027AD7C0D0071C905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DAEE20327AD7C0D0071C905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAEE20527AD7C0D0071C905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEE20B27AD7CF00071C905 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4DAEE20C27AD7CF00071C905 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		4DAEE21427AD7F060071C905 /* MainCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCVC.swift; sourceTree = "<group>"; };
+		4DAEE21527AD7F060071C905 /* MainCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCVC.xib; sourceTree = "<group>"; };
+		4DAEE21927AD94C00071C905 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		4DAEE21B27AD95CD0071C905 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4DE722C627B4522A00121EBE /* StepTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTVC.swift; sourceTree = "<group>"; };
+		4DE722C727B4522A00121EBE /* StepTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepTVC.xib; sourceTree = "<group>"; };
+		91C76D0C205BF877F30FE568 /* Pods-JapanKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapanKitchen.debug.xcconfig"; path = "Target Support Files/Pods-JapanKitchen/Pods-JapanKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		D90CF07D2BB897B86A357CB3 /* Pods_JapanKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JapanKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8316505C76F0E888E8C503 /* Pods-JapanKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapanKitchen.release.xcconfig"; path = "Target Support Files/Pods-JapanKitchen/Pods-JapanKitchen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFD2B155B01CA8293AAED5A /* Pods_JapanKitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02CDBD421766B9DFB23F4D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C76D0C205BF877F30FE568 /* Pods-JapanKitchen.debug.xcconfig */,
+				FF8316505C76F0E888E8C503 /* Pods-JapanKitchen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DAD51D027B1950300D839DE /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D5DC07227B2EF20000A14E2 /* TopTVC.swift */,
+				4D5DC07627B2EF7E000A14E2 /* IngredientsTVC.swift */,
+				4DE722C627B4522A00121EBE /* StepTVC.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		4DAD51D127B1950900D839DE /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D5DC07327B2EF20000A14E2 /* TopTVC.xib */,
+				4D5DC07727B2EF7E000A14E2 /* IngredientsTVC.xib */,
+				4DE722C727B4522A00121EBE /* StepTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4DAEE1EB27AD7C0C0071C905 = {
 			isa = PBXGroup;
 			children = (
 				4DAEE1F627AD7C0C0071C905 /* JapanKitchen */,
 				4DAEE1F527AD7C0C0071C905 /* Products */,
+				02CDBD421766B9DFB23F4D73 /* Pods */,
+				73D46DDC22840243A886578F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +129,84 @@
 			isa = PBXGroup;
 			children = (
 				4DAEE1F727AD7C0C0071C905 /* AppDelegate.swift */,
-				4DAEE1F927AD7C0C0071C905 /* SceneDelegate.swift */,
-				4DAEE1FB27AD7C0C0071C905 /* ViewController.swift */,
-				4DAEE1FD27AD7C0C0071C905 /* Main.storyboard */,
+				4DAEE21827AD94B10071C905 /* Helper */,
+				4DAEE20F27AD7D000071C905 /* Model */,
+				4DAEE21027AD7D090071C905 /* Views */,
+				4DAEE21127AD7D120071C905 /* Controllers */,
 				4DAEE20027AD7C0D0071C905 /* Assets.xcassets */,
 				4DAEE20227AD7C0D0071C905 /* LaunchScreen.storyboard */,
 				4DAEE20527AD7C0D0071C905 /* Info.plist */,
 			);
 			path = JapanKitchen;
+			sourceTree = "<group>";
+		};
+		4DAEE20F27AD7D000071C905 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DAEE21027AD7D090071C905 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEE20C27AD7CF00071C905 /* MainVC.xib */,
+				4DAD51CD27B194BB00D839DE /* MoreInformtionVC.xib */,
+				4D3AE83927B5717400AFC10D /* SideBarVC.xib */,
+				4D3AE84027B57FE700AFC10D /* FavouriteVC.xib */,
+				4DAD51D127B1950900D839DE /* TVC */,
+				4DAEE21327AD7EE60071C905 /* CVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DAEE21127AD7D120071C905 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEE20B27AD7CF00071C905 /* MainVC.swift */,
+				4DAD51CC27B194BB00D839DE /* MoreInformtionVC.swift */,
+				4D3AE83727B5715500AFC10D /* SideBarVC.swift */,
+				4D3AE83F27B57FE700AFC10D /* FavouriteVC.swift */,
+				4DAD51D027B1950300D839DE /* TVC */,
+				4DAEE21227AD7EDE0071C905 /* CVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DAEE21227AD7EDE0071C905 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEE21427AD7F060071C905 /* MainCVC.swift */,
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		4DAEE21327AD7EE60071C905 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEE21527AD7F060071C905 /* MainCVC.xib */,
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		4DAEE21827AD94B10071C905 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEE21927AD94C00071C905 /* AppColors.swift */,
+				4DAD51C827B16E5800D839DE /* RealmData.swift */,
+				4DAD51CA27B18EDC00D839DE /* FoodsDM.swift */,
+				4DAEE21B27AD95CD0071C905 /* Extension.swift */,
+				4D934AA327AED64700B32AC6 /* turk_cuisine.json */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		73D46DDC22840243A886578F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90CF07D2BB897B86A357CB3 /* Pods_JapanKitchen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAEE20827AD7C0D0071C905 /* Build configuration list for PBXNativeTarget "JapanKitchen" */;
 			buildPhases = (
+				A69501844348E57DF6375DD0 /* [CP] Check Pods Manifest.lock */,
 				4DAEE1F027AD7C0C0071C905 /* Sources */,
 				4DAEE1F127AD7C0C0071C905 /* Frameworks */,
 				4DAEE1F227AD7C0C0071C905 /* Resources */,
+				CC0DE5DF1FF8F1E63DA6C000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +269,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAEE20E27AD7CF00071C905 /* MainVC.xib in Resources */,
+				4D5DC07927B2EF7E000A14E2 /* IngredientsTVC.xib in Resources */,
+				4DAEE21727AD7F060071C905 /* MainCVC.xib in Resources */,
+				4D3AE83A27B5717400AFC10D /* SideBarVC.xib in Resources */,
+				4DAD51CF27B194BB00D839DE /* MoreInformtionVC.xib in Resources */,
+				4D5DC07527B2EF20000A14E2 /* TopTVC.xib in Resources */,
+				4D3AE84227B57FE700AFC10D /* FavouriteVC.xib in Resources */,
+				4DE722C927B4522A00121EBE /* StepTVC.xib in Resources */,
 				4DAEE20427AD7C0D0071C905 /* LaunchScreen.storyboard in Resources */,
+				4D934AA427AED64700B32AC6 /* turk_cuisine.json in Resources */,
 				4DAEE20127AD7C0D0071C905 /* Assets.xcassets in Resources */,
-				4DAEE1FF27AD7C0C0071C905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A69501844348E57DF6375DD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JapanKitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0DE5DF1FF8F1E63DA6C000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JapanKitchen/Pods-JapanKitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JapanKitchen/Pods-JapanKitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JapanKitchen/Pods-JapanKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DAEE1F027AD7C0C0071C905 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAEE1FC27AD7C0C0071C905 /* ViewController.swift in Sources */,
+				4DAEE21C27AD95CD0071C905 /* Extension.swift in Sources */,
+				4D5DC07427B2EF20000A14E2 /* TopTVC.swift in Sources */,
 				4DAEE1F827AD7C0C0071C905 /* AppDelegate.swift in Sources */,
-				4DAEE1FA27AD7C0C0071C905 /* SceneDelegate.swift in Sources */,
+				4DAD51CE27B194BB00D839DE /* MoreInformtionVC.swift in Sources */,
+				4DE722C827B4522A00121EBE /* StepTVC.swift in Sources */,
+				4D3AE83827B5715500AFC10D /* SideBarVC.swift in Sources */,
+				4DAD51CB27B18EDC00D839DE /* FoodsDM.swift in Sources */,
+				4DAEE21A27AD94C00071C905 /* AppColors.swift in Sources */,
+				4DAEE21627AD7F060071C905 /* MainCVC.swift in Sources */,
+				4D3AE84127B57FE700AFC10D /* FavouriteVC.swift in Sources */,
+				4D5DC07827B2EF7E000A14E2 /* IngredientsTVC.swift in Sources */,
+				4DAEE20D27AD7CF00071C905 /* MainVC.swift in Sources */,
+				4DAD51C927B16E5800D839DE /* RealmData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DAEE1FD27AD7C0C0071C905 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DAEE1FE27AD7C0C0071C905 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DAEE20227AD7C0D0071C905 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +480,7 @@
 		};
 		4DAEE20927AD7C0D0071C905 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C76D0C205BF877F30FE568 /* Pods-JapanKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +491,6 @@
 				INFOPLIST_FILE = JapanKitchen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +502,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4DAEE20A27AD7C0D0071C905 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8316505C76F0E888E8C503 /* Pods-JapanKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +519,6 @@
 				INFOPLIST_FILE = JapanKitchen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
